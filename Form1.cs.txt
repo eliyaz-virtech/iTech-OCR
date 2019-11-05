@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace TiffToJpeg
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           System.Drawing.Image image =System.Drawing.Image.FromFile(@"F:\Tiff\a1.tif");
+           image.Save(@"F:\Tiff\c1.jpg", System.Drawing.Imaging.ImageFormat.Jpg);
+        }
+    }
+}
