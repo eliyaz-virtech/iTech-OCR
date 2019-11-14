@@ -1,0 +1,8 @@
+model_checkpoint_path: "yolo_1_c-875"
+all_model_checkpoint_paths: "yolo_1_c-125"
+all_model_checkpoint_paths: "yolo_1_c-250"
+all_model_checkpoint_paths: "yolo_1_c-375"
+all_model_checkpoint_paths: "yolo_1_c-500"
+all_model_checkpoint_paths: "yolo_1_c-625"
+all_model_checkpoint_paths: "yolo_1_c-750"
+all_model_checkpoint_paths: "yolo_1_c-875"
